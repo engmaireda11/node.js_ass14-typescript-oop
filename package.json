@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "concurrently": "^10.0.7",
+    "typescript": "^7.0.2"
+  },
+  "name": "ass14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "start:dev": "concurrently \"npm:watch\" \"npm:serve\"",
+  "watch": "tsc --watch",
+  "serve": "node --watch dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
